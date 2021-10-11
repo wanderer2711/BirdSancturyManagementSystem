@@ -1,5 +1,6 @@
-public class Ostrich {
-    Color color;
-    String Id;
-    String Name;
+public class Ostrich extends Bird {
+    public Ostrich() {
+        name = "Ostrich";
+        color = Color.WHITE;
+    }
 }

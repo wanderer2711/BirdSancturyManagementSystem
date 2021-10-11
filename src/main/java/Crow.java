@@ -1,5 +1,7 @@
-public class Crow {
-    Color color;
-    String Id;
-    String Name;
+public class Crow extends Bird{
+    public Crow() {
+        name = "Crow";
+        color = Color.BLACK;
+
+    }
 }
